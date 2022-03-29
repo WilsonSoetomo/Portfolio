@@ -1,33 +1,47 @@
 * {
     box-sizing: border-box;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   body {
     display: flex;
     flex-direction: column;
     line-height: 1.3;
   }
+  header h1{
+      text-align: center;
+      min-width: 500px;
+      margin-bottom: 20px;
+  }
   header {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #13293d;
+    background-color: rgba(255, 153, 0, 0.959);
     color: #fff;
   }
   nav ul {
     display: flex;
-    justify-content: space-between;
-    min-width: 300px;
+    justify-content: space-evenly;
+    min-width: 500px;
+    list-style-type: none;
   }
 nav img{
     max-height: 40px;
 }
-nav a {
-    color: #b9C6ae;
+header nav a {
+    color: #ffffff;
     font-weight: bold;
     text-decoration: none;
   }
   
   nav a:hover {
-    color: #fff;
+    color: rgb(150, 150, 150);
   }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+    }
+  }
+  
