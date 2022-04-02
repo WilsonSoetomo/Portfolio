@@ -46,6 +46,7 @@ section{
   text-decoration: none;
   letter-spacing: 2px;
   font-weight: 500;
+  border-radius: 5px;
 }
 
 header{
@@ -97,7 +98,7 @@ header ul li a{
 .heading{
   width: 100%;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   color:black
 }
 .heading h2{
@@ -114,10 +115,42 @@ header ul li a{
 .contentBx h3{
   font-size: 24px;
   margin-bottom: 10px;
+  background: darkslategray;
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .w50{
   min-width: 50%;
+  background: darkslategray;
+  color: white;
+  font-weight: 600;
+  margin-right: 20px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 40px;
 }
 img{
   max-width:50%;
+  border-radius: 10px;
+}
+.work{
+  background: rgb(244, 231, 183);
+}
+.work .content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.work .content .servicesBx{
+  padding: 40px 20px;
+  background: lightpink;
+  color: maroon;
+  max-width: 340px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.work .content .servicesBx:hover{
+  background:paleturquoise;
 }
