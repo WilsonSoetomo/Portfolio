@@ -9,15 +9,14 @@
 </head>
 <body>
     <header>
-        <a href="#" class=""logo>Portfolio</a>
+        <a href="#" class="logo">Portfolio</a>
         <div class="toggle"></div>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
             <li><a href="#">Work</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Conatact</a></li>
+            <li><a href="#">Contact Me</a></li>
+            <li><a href="#">Resume</a></li>
         </ul>
     </header>
     <section class="banner">
@@ -26,10 +25,39 @@
                 Whaddup I'm<br><span> Wilson Soetomo.</span>
             </h2>
             <h3>
-                I'm a Front End Web Developer not a volleyball.
+                I'm a Front End Web Developer, not a volleyball.
             </h3>
             <a href="#" class="btn">About Me</a>
         </div>
     </section>
+    <section class="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+    <div class="content">
+        <div class="contentBx w50">
+            <h3>Just kidding I'm actually a beach volleyball. </h3>
+            <p>
+                Specifically the one from castaway. You got that right i'm famous.
+                WILSON: Just let me float away, man. Let me go and I’ll forget everything 
+                that happened between us. Sure, I’m a little traumatized and I’ve been 
+                exposed to a lot more than the average regulation size volleyball is meant 
+                to see. But I’m going to live and let live. I suggest you do the same. 
+                Like Styx says, I’ll try, oh Lord I’ll try. To carry on. Powerful stuff.
+                <br><br>WWWWWWWWWWWWWWWWWWwwwwwwiiiIIIIIIIIIIIIiiiillLLLLLLLLSSSSS
+                SSSssssSSSSooooonnnnnnn. Don't go. Who is this “Wilson” you speak of? 
+                My name is Vinnie the volleyball. Yeah, I like that. Got a nice ring to it. 
+                I always wanted my last name to be “the volleyball.” That way there’s no confusion.<br><br>
+            </p>
+        </div>
+            <img src="./Images/img-1.jgp.jpg" class="img">
+        </div>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
 </body>
 </html>
