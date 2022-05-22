@@ -26,6 +26,8 @@ section{
   color: white;
   font-weight: 500;
   line-height: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
 }
 .banner h2 span{
   font-size: 1.5em;
@@ -62,7 +64,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  padding: 40px 100px;
+  padding: 5% 10%;
   z-index: 1000;
   display:flex;
   justify-content: space-between;
@@ -94,7 +96,7 @@ header ul{
   display: flex;
 }
 header ul li{
-  position: relative;
+  position: center;
   list-style: none;
 }
 header ul li a{
@@ -117,19 +119,26 @@ header ul li a{
 .content{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+
 }
 .contentBx{
-  padding-right: 50px;
+  padding-right: 10%;
 }
 .contentBx h3{
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 5%;
   background: darkslategray;
   color: white;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
+.textBx h2{
+  margin-left: 5px;
+  margin-bottom: 2%;
+}
 .w50{
-  min-width: 50%;
+  width: 49%;
   background: darkslategray;
   color: white;
   font-weight: 600;
@@ -138,8 +147,8 @@ header ul li a{
   padding: 40px;
 }
 img{
-  max-width:50%;
-  border-radius: 10px;
+  max-width:49%;
+  border-radius: 14px;
 }
 .work{
   background: rgb(244, 231, 183);
@@ -154,7 +163,7 @@ img{
   padding: 40px 20px;
   background: lightpink;
   color: maroon;
-  max-width: 340px;
+ flex: 1 0 300px;
   margin: 20px;
   text-align: center;
   transition: 0.5s;
@@ -169,19 +178,17 @@ img{
 .formBx{
   min-width: 60%;
 }
-.formBx form{
+.formBx{
   display: flex;
   flex-direction: column;
 }
-.formBx form h3,
-.contactInfo h3{
-  color: #fff;
+.formBx{
+  color: rgb(71, 71, 71);
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
 }
-.formBx form input,
-.formBx form textarea{
+.formBx{
   margin-bottom: 20px;
   padding: 15px;
   font-size: 16px;
@@ -191,7 +198,7 @@ img{
   color: #fff;
   resize: none;
 }
-.formBx form textarea{
+.formBx textarea{
   min-height: 200px;
 }
 .formBx form input::placeholder,
@@ -225,4 +232,16 @@ img{
   color: #fff;
   flex-direction: column;
   font-weight: 300;
+}
+@media screen and (max-width: 540px) {
+  .view {
+      width: 400px;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .view {
+      width: 600px;
+  }
 }

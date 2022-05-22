@@ -14,3 +14,4 @@ I google several references for flex placement as that was the hardest challenge
 
 I still have difficulties managing the message box in the bottom of the website. I could not get it to align to the right.
 
+![This is my working WebPortfolio](https://myoctocat.com/assets/imags/base-octocat.sg)
