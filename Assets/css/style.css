@@ -110,11 +110,21 @@ header ul li a{
   width: 100%;
   text-align: center;
   margin-bottom: 60px;
-  color:black
+  color:black;
+  display: flex;
+}
+.workheading{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+  color:black;
 }
 .heading h2{
   font-weight: 600;
   font-size: 30px;
+}
+.about{
+  padding: 5%;
 }
 .content{
   display: flex;
@@ -137,8 +147,14 @@ header ul li a{
   margin-left: 5px;
   margin-bottom: 2%;
 }
+.wordstuff{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: white;
+  margin-bottom: 2%;
+}
 .w50{
-  width: 49%;
   background: darkslategray;
   color: white;
   font-weight: 600;
@@ -176,42 +192,28 @@ img{
   background:black;
 }
 .formBx{
-  min-width: 60%;
-}
-.formBx{
+  background: cadetblue;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
-.formBx{
-  color: rgb(71, 71, 71);
-  font-size: 20px;
-  font-weight: 500;
+.formBx:hover{
+  background: lightpink;
+}
+.namebox{
   margin-bottom: 10px;
 }
-.formBx{
-  margin-bottom: 20px;
-  padding: 15px;
-  font-size: 16px;
-  border: none;
-  outline: none;
-  background: #222;
-  color: #fff;
-  resize: none;
+.emailbox{
+  margin-bottom: 10px;
 }
-.formBx textarea{
-  min-height: 200px;
-}
-.formBx form input::placeholder,
-.formBx form textarea::placeholder
-{
-  color: #999;
-}
-.formBx form input[type="submit"]{
-  max-width: 100px;
-  background: #2196f3;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+.inputdescription{
+  margin-bottom: 10px;
+  height: 20%;
 }
 .contactInfo{
   min-width: 40%;
