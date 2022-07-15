@@ -125,6 +125,11 @@ header ul li a{
 }
 .about{
   padding: 5%;
+  justify-content: center;
+}
+.aboutme{
+  justify-content: center;
+  display: flex;
 }
 .content{
   display: flex;
