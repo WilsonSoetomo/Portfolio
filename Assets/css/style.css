@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 section{
-  padding: 100px;
+  padding: 10px;
 }
 .banner
 {
@@ -17,7 +17,7 @@ section{
   background-repeat: no-repeat;
   background-color: cadetblue;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -135,7 +135,7 @@ header ul li a{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
 
 }
 .contentBx{
@@ -194,51 +194,17 @@ img{
   background:paleturquoise;
 }
 .contact{
-  background:black;
+  background:rgb(255, 244, 203);
+  max-height: 10%;
 }
-.formBx{
-  background: cadetblue;
-  padding: 40px;
-  border-radius: 10px;
-  margin: 20px;
-  text-align: center;
-  transition: 0.5s;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-.formBx:hover{
-  background: lightpink;
-}
-.namebox{
-  margin-bottom: 10px;
-}
-.emailbox{
-  margin-bottom: 10px;
-}
-.inputdescription{
-  margin-bottom: 10px;
-  height: 20%;
-}
-.contactInfo{
+.contactInfo
+{
   min-width: 40%;
 }
 .contactInfoBx{
   position: relative;
-}
-.contactInfoBx .box{
-  position: relative;
-  padding: 20px 0;
   display: flex;
-  align-items: flex-end;
-}
-.contactInfoBx .box .text{
-  display: flex;
-  margin-left: 20px;
-  font-size: 16px;
-  color: #fff;
-  flex-direction: column;
-  font-weight: 300;
+  justify-content: space-evenly;
 }
 @media screen and (max-width: 540px) {
   .view {
